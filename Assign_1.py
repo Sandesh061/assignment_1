@@ -19,26 +19,29 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 
+ svm = SVC()
+ gauss = GaussianNB()
+ knn =  KNeighborsClassifier(n_neighbors=30)
+
 
 class Classifier:
 
     def support_vect():
-        svm = SVC()
+       
         svm.fit(X_train, y_train)
         p = svm.predict(X_test)
-        print(f"Accuracy of SVM: {accuracy_score(y_test, p)*100}")
+        print(f"Accuracy of SVM: {accuracy_score(y_test, p)}")
 
     def gausian():
-        gauss = GaussianNB()
+       
         gauss.fit(X_train, y_train)
         p = gauss.predict(X_test)
-        print(f"Accuracy of Naive Bayes: {accuracy_score(y_test, p)*100}")
+        print(f"Accuracy of Naive Bayes: {accuracy_score(y_test, p)}")
 
     def knearest(): 
-        knn =  KNeighborsClassifier(n_neighbors=30)
         knn.fit(X_train,y_train)
         p = knn.predict(X_test)
-        print(f"Accuracy of Knearest Neighbor: {accuracy_score(y_test, p)*100}")
+        print(f"Accuracy of Knearest Neighbor: {accuracy_score(y_test, p)}")
 
 while True:
     n = int(input("\nChoices for Classifier:\n \t1) Support Vector Machine\n\t2) Naive Bayes\n\t3) Knearest Neighbors\n\t:= "))
