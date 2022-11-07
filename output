@@ -1,0 +1,71 @@
+PS C:\Users\Sandesh\OneDrive\Desktop\Pattern Recognition> python -u "c:\Users\Sandesh\OneDrive\Desktop\Pattern Recognition\Assign_1.py"
+
+Choices for Classifier:
+        1) Support Vector Machine
+        2) Naive Bayes
+        3) Knearest Neighbors
+        4) Decision Tree
+        5) Logistic Regression
+        6) Perceptron
+        := 1
+Accuracy of SVM: 96.35036496350365
+
+Choices for Classifier:
+        1) Support Vector Machine
+        2) Naive Bayes
+        3) Knearest Neighbors
+        4) Decision Tree
+        5) Logistic Regression
+        6) Perceptron
+        := 2
+Accuracy of Naive Bayes: 94.8905109489051
+
+Choices for Classifier:
+        1) Support Vector Machine
+        2) Naive Bayes
+        3) Knearest Neighbors
+        4) Decision Tree
+        5) Logistic Regression
+        6) Perceptron
+        := 3
+Accuracy of Knearest Neighbor: 98.54014598540147
+
+Choices for Classifier:
+        1) Support Vector Machine
+        2) Naive Bayes
+        3) Knearest Neighbors
+        4) Decision Tree
+        5) Logistic Regression
+        6) Perceptron
+        := 4
+Accuracy of Decision Tree: 94.8905109489051
+
+Choices for Classifier:
+        1) Support Vector Machine
+        2) Naive Bayes
+        3) Knearest Neighbors
+        4) Decision Tree
+        5) Logistic Regression
+        6) Perceptron
+        := 5
+Accuracy of Logistic Regression: 97.08029197080292
+
+Choices for Classifier:
+        1) Support Vector Machine
+        2) Naive Bayes
+        3) Knearest Neighbors
+        4) Decision Tree
+        5) Logistic Regression
+        6) Perceptron
+        := 6
+Accuracy of Perceptron: 92.7007299270073
+
+Choices for Classifier:
+        1) Support Vector Machine
+        6) Perceptron
+        := qw
+Traceback (most recent call last):
+  File "c:\Users\Sandesh\OneDrive\Desktop\Pattern Recognition\Assign_1.py", line 66, in <module>
+    n = int(input("\nChoices for Classifier:\n \t1) Support Vector Machine\n\t2) Naive Bayes\n\t3) Knearest Neighbors\n\t4) Decision Tree\n\t5) Logistic Regression\n\t6) Perceptron\n\t:= "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'qw'PS C:\Users\Sandesh\OneDrive\Desktop\Pattern Recognition>
